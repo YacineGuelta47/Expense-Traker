@@ -80,7 +80,7 @@ class _NewExpenseState extends State<NewExpense> {
       padding: EdgeInsets.fromLTRB(15, 15, 15, keyboardHeight),
       child: SingleChildScrollView(
         child: Column(
-          spacing: 10,
+          spacing: 15,
           children: [
             TextField(
               controller: titleController,
